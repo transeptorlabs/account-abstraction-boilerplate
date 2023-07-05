@@ -15,17 +15,17 @@ cd account-abstraction-boilerplate
 npm install
 ```
 
-Once installed, let's run ETH client on local network:
+Once installed, let's run an ETH client on your local network:
 
 ```sh
-np run node
+npm run node
 ```
 
 Next, on a new terminal, go to the repository's root folder and run this to
 deploy Account Abstraction and your contract:
 
 ```sh
-npn run deploy:all
+npm run deploy:all
 ```
 
 Next, we can use use `.env.sample` to create .env file with your `MNEMONIC` and `BENEFICIARY`.
@@ -35,7 +35,7 @@ Next, we can use use `.env.sample` to create .env file with your `MNEMONIC` and 
 
 Then, we can fund the bundler signer account with some ETH:
 ```sh
-npn run fund 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+npm run fund 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
 ```
 
 Finally, we can run the ERC-4337 Bundler(Transeptor)
@@ -78,7 +78,7 @@ npm run compile
 ### Deploying to a local node
 
 ```sh
-npm run depoly
+npm run deploy
 ```
 
 or 
