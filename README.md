@@ -44,16 +44,7 @@ Finally, we can run the ERC-4337 Bundler(Transeptor)
 npm run bundler
 ```
 
-The Bundler will start running on [http://localhost:3000/rpc](http://localhost:3000/rpc). You will
-need to have [Metamask Flask](https://metamask.io/flask/) installed and listening to
-`localhost 8545`.
-
-### Troubleshooting
-
-- `Invalid nonce` errors: if you are seeing this error on the `npx hardhat node`
-  console, try resetting your Metamask account. This will reset the account's
-  transaction history and also the nonce. Open Metamask, click on your account
-  followed by `Settings > Advanced > Clear activity tab data`.
+The Bundler will start running on [http://localhost:3000/rpc](http://localhost:3000/rpc).
 
 
 ## Smart Contract Development
